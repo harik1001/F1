@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head></head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="f1.css">
+    <script src="f1.js"></script>
+</head>
+<body class="head">
+     
+    <div class="div1">
+        <header>
+     <div class="div2">
+        <a href="about.html"> <button  class="btn2"> About</button></a>
+        <a href="contact.html"> <button class="btn2">Contact Us</button></a>
+     </div>
+        </header>
+         <form class="form">
+            <div class="div2">
+                <button onclick="Signin()" class="btn2">LOGIN</button>
+            </div>
+            <div class="div2">
+                <button onclick="Signup()" class="btn2">REGISTER</button>
+            </div>
+
+            <div id="signin" style="display: none;"> 
+                <div class="title">
+                    <h2>LOGIN HERE</h2>
+                </div>
+                <div class="rgt">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="rgt">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <div class="forget-password">
+                    <a href="#">Forget password?</a>
+                </div>
+                <button type="submit" class="btn">LOGIN</button>
+            </div>
+
+        
+            <div id="signup" style="display: none;">
+                <div class="title">
+                    <h2>REGISTER HERE</h2>
+                </div>
+                <div class="rgt">
+                   <input type="text" placeholder="Full Name" required="">
+                </div>
+                <div class="rgt">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="rgt">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <div class="rgt">
+                    <input type="password" placeholder="confirm password">
+                </div>
+                <div class="rgt">
+                    <div class="rgt1">
+                    <label>Select Gender</label>
+                    <input type="radio"name="gender" value="Male">Male
+                    <input type="radio"name="gender" value="Female">Female
+                    <input type="radio"name="gender" value="others">Others
+                    </div>
+                </div>
+                <div class="rgt">
+                    <input type="text" placeholder="Mobile Number" maxlength="10"><br>
+                </div>
+                <div>
+                <button type="submit" class="btn">SIGN UP</button>
+                <button class="btn">back</button>
+                </div>
+            </div>
+            
+         </form>
+     </div>
+</body>
+</html>
+
